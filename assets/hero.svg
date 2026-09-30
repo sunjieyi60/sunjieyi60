@@ -1,0 +1,59 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">sunjieyi60 — Build systems that stay understandable.</title>
+  <desc id="desc">A calm blue profile banner with a modular system diagram.</desc>
+  <style>
+    :root { color-scheme: light dark; }
+    .bg { fill: #F5F5F7; }
+    .grid { stroke: #1D1D1F; stroke-opacity: .055; }
+    .eyebrow { fill: #6E6E73; font: 600 16px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: 2.4px; }
+    .title { fill: #1D1D1F; font: 700 54px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: -2.2px; }
+    .subtitle { fill: #6E6E73; font: 450 22px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .line { stroke: #007AFF; stroke-width: 2; stroke-linecap: round; opacity: .42; }
+    .card { fill: #FFFFFF; stroke: #1D1D1F; stroke-opacity: .09; }
+    .dot { fill: #007AFF; }
+    .label { fill: #1D1D1F; font: 600 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .meta { fill: #6E6E73; font: 450 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .6px; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #101114; }
+      .grid { stroke: #FFFFFF; stroke-opacity: .05; }
+      .title, .label { fill: #F5F5F7; }
+      .eyebrow, .subtitle, .meta { fill: #A1A1A6; }
+      .card { fill: #1C1D21; stroke: #FFFFFF; stroke-opacity: .11; }
+      .line { stroke: #0A84FF; }
+      .dot { fill: #0A84FF; }
+    }
+  </style>
+  <rect class="bg" width="1200" height="360" rx="28"/>
+  <g class="grid">
+    <path d="M0 72H1200M0 144H1200M0 216H1200M0 288H1200"/>
+    <path d="M120 0V360M240 0V360M360 0V360M480 0V360M600 0V360M720 0V360M840 0V360M960 0V360M1080 0V360"/>
+  </g>
+  <text class="eyebrow" x="72" y="104">SUNJIEYI60 · NEOM-CODING</text>
+  <text class="title" x="72" y="180">把复杂系统，做得清晰。</text>
+  <text class="subtitle" x="74" y="229">Backend systems · Intelligent control · Agent runtime</text>
+  <circle class="dot" cx="78" cy="278" r="5"/>
+  <text class="meta" x="94" y="283">BUILD · OBSERVE · ITERATE</text>
+
+  <path class="line" d="M790 110H866V180H934"/>
+  <path class="line" d="M790 250H866V180"/>
+  <path class="line" d="M934 180H1000"/>
+  <circle class="dot" cx="866" cy="180" r="5"/>
+  <g>
+    <rect class="card" x="646" y="80" width="144" height="60" rx="16"/>
+    <circle class="dot" cx="668" cy="102" r="4"/>
+    <text class="label" x="681" y="108">RULE ENGINE</text>
+    <text class="meta" x="668" y="126">EVENT → ACTION</text>
+  </g>
+  <g>
+    <rect class="card" x="646" y="220" width="144" height="60" rx="16"/>
+    <circle class="dot" cx="668" cy="242" r="4"/>
+    <text class="label" x="681" y="248">AGENT</text>
+    <text class="meta" x="668" y="266">CONTEXT → STEP</text>
+  </g>
+  <g>
+    <rect class="card" x="934" y="150" width="194" height="60" rx="16"/>
+    <circle class="dot" cx="956" cy="172" r="4"/>
+    <text class="label" x="969" y="178">PRODUCT</text>
+    <text class="meta" x="956" y="196">RELIABLE · EXPLAINABLE</text>
+  </g>
+</svg>
